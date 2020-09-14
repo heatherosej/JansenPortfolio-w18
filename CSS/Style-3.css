@@ -1,0 +1,134 @@
+@font-face {font-family: 'Necto', sans-serif;
+  Src: url(font/necto-mono.woff2) format('woff2'), /* Super Modern Browsers */
+  url(font/necto-mono.woff) format('woff'), /* Pretty Modern Browsers */} 
+
+body {
+  font-family: 'work-sans', sans-serif;
+  margin:0;
+}
+/* header {position: fixed;} */
+
+.navbar{background-image: url(../images/header.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: -10px;} 
+
+.topnav {
+  overflow: hidden;
+}
+
+nav {font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: white; 
+padding-top: 25px;
+}
+
+.topnav a {
+  float: left;
+  padding-top: 25px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  }
+.logo{
+  padding: 0px;
+  margin: 5px;
+  margin-left: 25px;
+}
+.topnav-right {
+  float: right;
+  color: white;
+  padding-right: 25px;}  
+
+.intro {font-family: 'work-sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 24px;}
+
+.hero {margin: 10px;
+padding:15px}  
+
+h1 
+{font-family: 'obviously-wide', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  }
+  
+h3 
+{font-family: 'obviously-wide', sans-serif;
+  font-weight: 600;
+  font-style: normal;} 
+
+.herotext {display: inline-block}  
+
+.img{display:inline-block;
+width: 300px;}  
+
+/* .cta-buttons {
+  font-family: 'Necto', sans-serif;
+  font-size: 19px;
+} */
+
+/* NECTO MONO Buttons
+.button1{
+background-color:#BEE1D6; 
+font-family: 'Necto', sans-serif;
+font-size: 19px;
+color: black;
+text-decoration: none;
+padding: 15px; }
+
+.button2{
+  background-color: #FCB140;
+  font-family: 'Necto', sans-serif;
+  font-size: 24px;
+  color:black;
+  text-decoration: none;
+  padding: 15px; }     */
+
+.button1{
+  background-color:#BEE1D6; 
+  font-family: ballinger-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  Margin-right: 40px;
+  padding: 15px 35px 15px 35px;}
+
+.button2{
+  background-color: #FCB140;
+  font-family: ballinger-mono, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 19px;
+  color: black;
+  text-decoration: none;
+  padding: 15px 35px 15px 35px;}
+
+.leftfooter{
+  overflow: hidden;}
+  
+.footer a{
+float: left;
+color: #000000;
+text-align: center;
+font-size: 17px;
+padding: 25px;
+margin: 10px;
+text-decoration: none;}
+
+.footer {background-image: url(../Images/footer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  height: 300px;
+  margin: -10px;}
+  
+.rightfooter {float: right;
+  margin: 10px;
+padding: 25px;
+font-size: 13px;}
