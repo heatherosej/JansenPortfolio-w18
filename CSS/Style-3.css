@@ -2,16 +2,24 @@ body {
   font-family: 'work-sans', sans-serif;
   margin:0;}
 
-/*  NAVIGATION */
-.all-nav {
-  /* position: fixed; */
+/*  NAVIGATION
+ 
  
 .nav{
   background-image: url(../images/header.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
-  margin-top: -10px;
+  margin-top: -10px; */
+
+#.all-nav {position: fixed;
+
+.navbar{
+    background-image: url(../images/header.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: -10px;} 
 }
 .logo{
   padding: 0px;
