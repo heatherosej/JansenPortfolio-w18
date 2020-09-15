@@ -56,7 +56,7 @@ border-width: 2px;}
 .hero {
 flex-direction: row;
 border:greenyellow;
-border-width: 2px;  
+border-width: 2px;  }
 
 .copyarea {flex-direction: column;}
 
@@ -73,9 +73,6 @@ h3
 {font-family: 'obviously-wide', sans-serif;
   font-weight: 600;
   font-style: normal;}  
-
-.img{display:inline-block;
-width: 300px;}  
 
 .button1{
   background-color:#BEE1D6; 
