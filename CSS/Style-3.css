@@ -1,6 +1,8 @@
 body {
   font-family: 'work-sans', sans-serif;
-  margin:0;}
+  margin:0;flex-direction: column;
+  border-style: solid;
+  border-color: turquoise;}
 
 /*  NAVIGATION
  
@@ -11,16 +13,21 @@ body {
   background-position: bottom;
   margin-top: -10px; */
 
+/* .flex {flex-direction: column;
+border-style: solid;
+border-color: turquoise;
+} */
 #all-nav {position: fixed;
-border: red} 
+  border-style: dotted;
+border-color: red} 
 
 .nav{
-  border: blue;  
+  border-style: dotted;
+  border-color: olive;  
   background-image: url(../images/header.svg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    margin-top: -15px;
     /* height: 300px;
     position: absolute;*/ 
     display: flex;
@@ -40,7 +47,8 @@ border: red}
   color: white; 
   text-decoration: none;
   flex-direction: row;
-  border:violet;
+  border-style: dotted;
+  border-color:violet;
   }
 
 .topnav-right a{ 
@@ -50,13 +58,19 @@ border: red}
   color: white; 
   text-decoration: none;
   flex-direction: row;
-border:greenyellow;
+  border-style: dotted;
+border-color:greenyellow;
 border-width: 2px;}
 
-.hero {
-flex-direction: row;
+.herocontent{
+flex-direction: row
+border-style: dotted;
 border:greenyellow;
 border-width: 2px;  }
+
+.allcontent {flex-direction: row;
+  border-color:rgb(47, 154, 255);
+  border-width: 2px;  }
 
 .copyarea {flex-direction: column;}
 
@@ -76,6 +90,8 @@ h3
 
 .button1{
   background-color:#BEE1D6; 
+  border-style: dotted;
+  border-color: black;
   font-family: ballinger-mono, sans-serif;
   font-weight: 400;
   font-style: normal;
