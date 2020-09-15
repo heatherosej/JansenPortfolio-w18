@@ -1,6 +1,6 @@
 body {
   font-family: 'work-sans', sans-serif;
-  margin:0;flex-direction: column;
+  margin:0;
   border-style: solid;
   border-color: turquoise;}
 
@@ -21,7 +21,8 @@ border-color: turquoise;
   border-style: dotted;
 border-color: red;
 display: flex;
-flex-direction: row;} 
+flex-direction: row;
+align-items: flex-start; } 
 
 .nav{
   border-style: dotted;
@@ -30,16 +31,17 @@ flex-direction: row;}
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    /* position: absolute;*/ 
     width: 100vw;
-    /* max height: 200px; */
     margin: -25px -10px -10px -10px;
+    align-items: center;
     }
 
-/* .logo img{
+.logo img{
   padding: 25px;
   margin: 5px;
-  margin-left: 25px;} */
+  margin-left: 25px;
+  justify-content; left;
+}
 
 .topnav-left a{
   font-weight: 400;
@@ -49,6 +51,7 @@ flex-direction: row;}
   text-decoration: none;
   border-style: dotted;
   border-color:violet;
+  justify-content; left;
   }
 
 .topnav-right a{ 
@@ -59,7 +62,8 @@ flex-direction: row;}
   text-decoration: none;
   border-style: dotted;
 border-color:greenyellow;
-border-width: 2px;}
+border-width: 2px;
+justify-content; right;}
 
 /* .herocontent{
 flex-direction: row;
