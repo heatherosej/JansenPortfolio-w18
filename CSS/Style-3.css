@@ -7,9 +7,7 @@ body {
   /* position: fixed; */
  
 .nav{
-  flex-direction: row;}
-
-nav background-image: url(images/header.svg);
+  background-image: url(../images/header.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -20,7 +18,7 @@ nav background-image: url(images/header.svg);
   margin: 5px;
   margin-left: 25px;}
 
-.topnav-left {
+.topnav-left a{
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -31,9 +29,14 @@ nav background-image: url(images/header.svg);
   color: white;
   }
 
-.topnav-right { font-weight: 400;
+.topnav-right a{ font-weight: 400;
   font-style: normal;
-  font-size: 18px;} 
+  font-size: 18px;
+  color: white; 
+  padding-top: 25px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;} 
 
 .intro {font-family: 'work-sans', sans-serif;
   font-weight: 300;
