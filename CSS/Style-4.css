@@ -222,7 +222,9 @@ h3
   bottom: 0;
   margin: 0;
  }
-
+.work {
+    margin-top: 100px;
+}
  .wrapper {
   display: grid;
   width: 100vw;
@@ -249,12 +251,13 @@ h2 {
   font-family: ocr-a-std, monospace;
   font-style: normal;
   font-size: 24px;
+  margin-bottom: -10;;
   color: black;
 }
-.box {
+/* .box {
  border-style: dotted;
   border-color: olive;
-}
+} */
 
 .a {
   grid-column: col 1 / span  1 ;
