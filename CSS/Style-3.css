@@ -226,7 +226,7 @@ h3
  .wrapper {
   display: grid;
   width: 100vw;
-  grid-template-columns: repeat(6, [col] 16.67% ) ;
+  grid-template-columns: repeat(10, [col] 10% ) ;
   grid-template-rows: repeat(3, [row] auto  );
   background-color: #fff;
   color: #444;
@@ -238,9 +238,9 @@ h3
   content: "";
   border: 10px solid #BEE1D6;
   height: 0px;
-  width: 150px;
+  width: 400px;
   position: absolute;
-  bottom: 110px;
+  /* bottom: 0; */
   z-index: 0;
 }
 h2 {
@@ -248,21 +248,20 @@ h2 {
   z-index:1;
   font-family: ocr-a-std, monospace;
   font-style: normal;
-  font-size: 28px;
+  font-size: 24px;
   color: black;
 }
 .box {
  border-style: dotted;
   border-color: olive;
-  font-size: 150%;
 }
 
 .a {
-  grid-column: col 1 / span  0.75 ;
+  grid-column: col 1 / span  1 ;
   grid-row: row 1;
 }
 .b {
-  grid-column: col 2 / span  1.25 ;
+  grid-column: col 2 / span  1;
   grid-row: row 1;
 }
 
