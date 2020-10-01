@@ -17,7 +17,7 @@ body {
   border-color: transparent;
   /* overflow:hidden; */
 }
-
+/* .nav */
 #all-nav {position: fixed;
 background-color: black;
 display: flex;
@@ -27,7 +27,7 @@ max-height: 140px;
 margin-top:-15px;
 margin-left: -10px; 
 } 
-
+/* menu */
 .nav{
   /* border-style: dotted;
   border-color: olive;  */
@@ -163,25 +163,29 @@ margin-left: -10px;
   height: auto;  
 }
 
-#name {font-size: 35px;
-  font-family: 'TradeGothicLTStd-BoldExt', sans-serif;}
+#name {font-size: 30px;
+  font-family: 'TradeGothicLTStd-BoldExt', sans-serif;
+  line-height: 0.5em;
+}
 
 #VD { font-family: 'work-sans', sans-serif;
   font-weight: 100;
   font-size: 17px;
+  line-height: 2.25em;
   }  
-#PD{font-size: 35px;
+#PD{font-size: 30px;
     font-family: 'TradeGothicLTStd-Extended', sans-serif;
-    line-height: 175%;
+    line-height: .75em;
   }
-#iam{font-size: 35px;
+#iam{font-size: 30px;
   font-family: 'TradeGothicLTStd-Extended', sans-serif;
 } 
-h3 
-  {font-family: 'TradeGothicLTStd-boldExt', sans-serif;
-  font-size: 26px;
+h3 {
+  font-family: 'TradeGothicLTStd-boldExt', sans-serif;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 50px;}
+  /* margin-bottom: 50px;} */
+}
 
 #cta{
   height: 70px;
