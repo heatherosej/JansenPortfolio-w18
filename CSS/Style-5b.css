@@ -18,7 +18,7 @@ body {
   /* overflow:hidden; */
 }
 
-#header {position: fixed;
+#all-nav {position: fixed;
 background-color: black;
 display: flex;
 width: 101vw;
@@ -35,14 +35,12 @@ z-index: 999;
   width: 100vw;
   display: flex; 
   align-items: center;
-  /* justify-content: space-between; */
+  justify-content: space-between;
   vertical-align: middle;
   transform: rotate(2deg);
   margin-left: -10px; 
   margin-top: 50px;
  }
-
-
 
 #logo{
   padding: 25px;
@@ -52,21 +50,7 @@ z-index: 999;
   max-width: 100%;
   max-height: 100px;
 }
-
-nav ul{
-  list-style-type: none;
-  margin-right: 0px;
-  padding: 20px 0px 10px 0px;
-  overflow: hidden;
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  padding-inline-start: 0px;}
-
-ul{
-    margin: 0px;
-}
-
-/* .topnav-left a{
+.topnav-left a{
   font-family: ballinger-mono, sans-serif;
   font-weight: 300;
   font-size: 15px;
@@ -74,23 +58,13 @@ ul{
   text-decoration: none;
   /* border-style: dotted;
   border-color:violet; */
-  /* padding: 0px;   */
-  /* width: 125px;
-  /* text-align: center;
- margin-right: 30px;  */  */
- 
+  padding: 0px;  
+  width: 125px;
+  text-align: center;
+ margin-right: 30px; 
   }
 .leftlinks{margin-top: 100px;
-  font-family: ballinger-mono, sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  color: white; 
-  text-decoration: none;
-  width: 100px;
-  /* text-align: center; */
-  vertical-align: middle;
-  margin-right: 30px;
-  float: left;
+  
 }
 .RightLinks{ 
   font-size: 25px;
@@ -98,11 +72,10 @@ ul{
   text-decoration: none;
   margin-left: 15px;
   vertical-align: middle;
-  float: right;
+  justify-content: flex-end;
 }
 
 .topnav-right{margin-right: 50px;
-  float: right;
 }
 
 .resume{font-size: 15px;
@@ -112,7 +85,7 @@ ul{
   text-decoration: none;
   text-align: center;
   vertical-align: middle;
-  /* justify-content: flex-end;  */
+  justify-content: flex-end; 
 } 
 
 #email {
