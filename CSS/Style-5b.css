@@ -9,13 +9,19 @@
   src: url('../font/TradeGothicLTStd-Extended/font.woff2') format('woff2'), url('../font/TradeGothicLTStd-Extended/font.woff') format('woff');
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'work-sans', sans-serif;
-  margin:0;
   width: 100vw;
   border-style: solid;
   border-color: transparent;
-  /* overflow:hidden; */
+  overflow-x: hidden; 
+  /* ÷last line is not cross compatabile */
 }
 
 #all-nav {position: fixed;
